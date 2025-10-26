@@ -24,22 +24,22 @@
   <summary>Detail</summary>
   
   >Core Background
-• Natural disasters like floods, cyclones, earthquakes, and tsunamis cause major damage.
-• Early warning helps to reduce loss of life and property.
-• This project uses digital logic to detect possible disasters automatically.
-• It works on simple sensor-like binary inputs representing environment factors.
-Project Working
-• The system takes 8-bit input (2 bits each for Rainfall, Seismic, Wind, and Sea Level).
-• Each 2-bit code shows the level: Low, Medium, High, or Very High.
-• Comparators, AND/OR/XOR gates, and decoders process these inputs.
-• Logic equations decide which disaster condition matches the given inputs.
-• A priority encoder and multiplexer ensure only one LED glows at a time.
-• The output is a glowing LED showing one disaster: Flood, Cyclone, Earthquake, or Tsunami.
-Applications & Educational Value
-• The LEDs act as warning indicators for different conditions.
-• The design is simple, low-cost, and based on basic logic ICs.
-• It can be used in educational labs to learn digital system design concepts.
-• The project demonstrates practical use of comparators, encoders, and multiplexers in safety systems.
+>• Natural disasters like floods, cyclones, earthquakes, and tsunamis cause major damage.
+>• Early warning helps to reduce loss of life and property.
+>• This project uses digital logic to detect possible disasters automatically.
+>• It works on simple sensor-like binary inputs representing environment factors.
+>Project Working
+>• The system takes 8-bit input (2 bits each for Rainfall, Seismic, Wind, and Sea Level).
+>• Each 2-bit code shows the level: Low, Medium, High, or Very High.
+>• Comparators, AND/OR/XOR gates, and decoders process these inputs.
+>• Logic equations decide which disaster condition matches the given inputs.
+>• A priority encoder and multiplexer ensure only one LED glows at a time.
+>• The output is a glowing LED showing one disaster: Flood, Cyclone, Earthquake, or Tsunami.
+>Applications & Educational Value
+>• The LEDs act as warning indicators for different conditions.
+>• The design is simple, low-cost, and based on basic logic ICs.
+>• It can be used in educational labs to learn digital system design concepts.
+>• The project demonstrates practical use of comparators, encoders, and multiplexers in safety systems.
 </details>
 
 ## Functional Block Diagram
