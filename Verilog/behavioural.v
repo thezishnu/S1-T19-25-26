@@ -9,12 +9,14 @@ module disaster_behavioral(
         flood      = r1 & (w1 | l1 | r0);
         cyclone    = w1 & (w0 | l1 | r1);
         earthquake = s1 | s0;
-        tsunami    = s1 & l1;
-        if      (flood)      code = 2'b00;
-        else if (cyclone)    code = 2'b01;
+        tsunami    = (s1 & s0) | l1;
+
+        if      (tsunami)    code = 2'b11;
         else if (earthquake) code = 2'b10;
-        else if (tsunami)    code = 2'b11;
+        else if (cyclone)    code = 2'b01;
+        else if (flood)      code = 2'b00;
         else                 code = 2'b00;
+
         case (code)
             2'b00: {Df, Dc, De, Dt} = 4'b1000;
             2'b01: {Df, Dc, De, Dt} = 4'b0100;
@@ -22,6 +24,7 @@ module disaster_behavioral(
             2'b11: {Df, Dc, De, Dt} = 4'b0001;
             default: {Df, Dc, De, Dt} = 4'b0000;
         endcase
+
         flood_led      = (~mode & Df) | (mode & flood);
         cyclone_led    = (~mode & Dc) | (mode & cyclone);
         earthquake_led = (~mode & De) | (mode & earthquake);
