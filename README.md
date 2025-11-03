@@ -112,7 +112,7 @@ A lightweight digital system that detects Flood, Cyclone, Earthquake, and Tsunam
 <details>
   <summary>Detail</summary>
   
-  ![Circuit](Logisim/logisim_circuit.png)
+  ![Circuit](Logisim/disaster_warning_device.png)
 </details>
 
 <!-- Fifth Section -->
