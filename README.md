@@ -43,7 +43,7 @@ A lightweight digital system that detects Flood, Cyclone, Earthquake, and Tsunam
 <details>
   <summary>Detail</summary>
   
-  ![block diagram](Snapshots/block_diagram.png))
+  ![block diagram](Snapshots/block_diagram.png)
 
 </details>
 
