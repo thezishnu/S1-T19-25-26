@@ -57,17 +57,7 @@ module tb_disaster_all;
             end
         end
         #5;
-        $display("");
-        $display("=== SUMMARY ===");
-        $display("Total vectors printed : %0d", sno);
-        $display("Maximum simultaneous disasters observed : %0d", max_active);
-        if (max_active_vector != 8'hFF)
-            $display("First vector with max disasters: i=%0d  (r1r0=%b, s1s0=%b, w1w0=%b, l1l0=%b)",
-                     max_active_vector,
-                     max_active_vector[7], max_active_vector[6],
-                     max_active_vector[5], max_active_vector[4],
-                     max_active_vector[3], max_active_vector[2],
-                     max_active_vector[1], max_active_vector[0]);
+    
         $finish;
     end
 endmodule
