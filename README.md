@@ -1,6 +1,6 @@
 # Disaster Warning Device
 
-A lightweight digital system that detects Flood, Cyclone, Earthquake, and Tsunami from four 2-bit environmental sensors, then reports either a single prioritized disaster or all simultaneous disasters based on a selectable mode.
+A lightweight digital system that detects Flood, Cyclone, Earthquake, and Tsunami from 8 bit Binary Input, then reports either a single prioritized disaster or all simultaneous Natural disasters based on a selectable mode.
 
 <!-- First Section -->
 ## Team Details
@@ -43,7 +43,7 @@ A lightweight digital system that detects Flood, Cyclone, Earthquake, and Tsunam
 <details>
   <summary>Detail</summary>
   
-  ![block diagram](Snapshots/block_diagram.png)
+  ![block diagram](Snapshots/FBD.drawio.png)
 
 </details>
 
