@@ -48,7 +48,7 @@ A lightweight digital system that detects Flood, Cyclone, Earthquake, and Tsunam
 </details>
 
 <!-- Third Section -->
-# Working
+## Working
 <details>
   <summary>Detail</summary>
 The Disaster Warning Device operates by analysing environmental conditions using simple 2-bit digital inputs. These inputs represent intensity levels of four environmental parameters — rainfall, wind speed, seismic activity, and sea level. Each 2-bit pair indicates the level:
@@ -56,8 +56,10 @@ The Disaster Warning Device operates by analysing environmental conditions using
 `00` = Low, `01` = Medium, `10` = High, `11` = Very High.
 
 ---
+### **Flowchart**
+![Flow_Chart](Snapshots/flowchart_bg.drawio.png)
 
-## **Working Steps**
+### **Working Steps**
 
 ### 1. Input Stage
 
@@ -149,7 +151,7 @@ This design makes it easy to identify and test disaster conditions quickly and c
 <details>
   <summary>Detail</summary>
   
-  ![Circuit](Logisim/disaster_warning_device.png)
+  ![Circuit](Logisim/Logisim_circuit.png)
 </details>
 
 <!-- Fifth Section -->
