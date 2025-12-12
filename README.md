@@ -68,15 +68,15 @@ The system accepts four decimal environmental inputs—rainfall, seismic acceler
 #### **2.1 Input Stage**
 
 
-**Threshold Levels:**  
-`00` (Low), `01` (Medium), `10` (High), `11` (Very High)
-
 | **Rainfall (mm/hr)** | **Seismic Activity (m/s²) x 10**   | **Wind Speed (kmph)** <br>  | **Sea Level Rise (cm)** | **Output** <br> `x1 x0` |
 |----------------------------------|-------------------------------------------|------------------------------------|----------------------------------------|--------------------------|
 | 0–2                              | 0–0.1                                     | 0–15                               | 0–5                                    | 00                       |
 | 3–10                             | 0.2–0.5                                   | 16–30                              | 6–20                                   | 01                       |
 | 11–30                            | 0.6–1.5                                   | 31–60                              | 21–50                                  | 10                       |
 | ≥ 31                             | ≥ 1.6                                     | ≥ 61                               | ≥ 51                                   | 11                       |
+
+**Threshold Levels:**  
+`00` (Low), `01` (Medium), `10` (High), `11` (Very High)
 
 
 ---
