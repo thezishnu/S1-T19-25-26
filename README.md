@@ -63,13 +63,10 @@ A digital logic–based warning system that identifies Flood, Cyclone, Earthquak
 
 ### **2. Working Steps**
 The system accepts four decimal environmental inputs—rainfall, seismic acceleration, wind speed, and sea-level rise. Each value is mapped to a corresponding 2-bit intensity level based on predefined thresholds.  
-**Threshold Levels:**  
-`00` (Low), `01` (Medium), `10` (High), `11` (Very High)
 
 ---
 #### **2.1 Input Stage**
 
-The system accepts four decimal environmental inputs—rainfall, seismic acceleration, wind speed, and sea-level rise. Each value is mapped to a corresponding 2-bit intensity level based on predefined thresholds.
 
 **Threshold Levels:**  
 `00` (Low), `01` (Medium), `10` (High), `11` (Very High)
