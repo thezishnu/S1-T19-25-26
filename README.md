@@ -13,7 +13,7 @@ A digital logic–based warning system that identifies Flood, Cyclone, Earthquak
 
   > **Team ID:** s1-19  
 
-  > **Team Lead:** Poluri Sai Jishnu, 241CS140, saijishnup.241cs140@nitk.edu.in  
+  > **Team Lead:** Poluri Sai Jishnu, 241CS140, saijishnup.241cs140@nitk.edu.in/saijishnup@gmail.com  
 
   > **Member:** Utkoor Venkatesh, 241CS161, utkoorvenkatesh.241cs161@nitk.edu.in  
 
