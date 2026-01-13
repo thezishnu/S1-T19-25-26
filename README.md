@@ -29,7 +29,7 @@ A digital logic–based warning system that identifies Flood, Cyclone, Earthquak
   Natural disasters such as floods, cyclones, earthquakes, and tsunamis create significant threats to communities and infrastructure. Early warning systems help reduce impact and improve response efforts. This project applies digital logic techniques to classify potential hazards using threshold-based environmental indicators. By converting real-world measurements into binary levels, the system identifies the most probable disaster event.  
 
  #### **Project Working:**  
-  The device receives four environmental inputs: Rainfall, Seismic activity, Wind speed, and Sea Level—each. Encoded into 2-bit levels ranging from Low to Very High.  
+  The device receives four environmental inputs: Rainfall, Seismic activity, Wind speed, and Sea Level, Each encoded into 2-bit levels ranging from Low to Very High.  
   • Logical circuits assess Flood, Cyclone, Earthquake, and Tsunami conditions  
   • A priority encoder selects the highest-priority disaster when multiple occur  
   • Mode control supports Unique-Disaster and Multi-Disaster interpretation  
@@ -62,7 +62,7 @@ A digital logic–based warning system that identifies Flood, Cyclone, Earthquak
 ---
 
 ### **2. Working Steps**
-The system accepts four decimal environmental inputs—rainfall, seismic acceleration, wind speed, and sea-level rise. Each value is mapped to a corresponding 2-bit intensity level based on predefined thresholds.  
+The system accepts four decimal environmental inputs rainfall, seismic acceleration, wind speed, and sea-level rise. Each value is mapped to a corresponding 2-bit intensity level based on predefined thresholds.  
 
 ---
 #### **2.1 Input Stage**
